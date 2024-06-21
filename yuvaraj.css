@@ -5,7 +5,7 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(/image/start.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(image/start.webp);
     background-size: cover;
     background-position: center;
 }
@@ -91,7 +91,7 @@
 .pad{
     width: 1276;
     height: 442;
-    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(/image/pad2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(image/pad2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -109,12 +109,12 @@
     
 }
 .ending{
-    background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(/image/ending.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(image/ending.jpg);
     width: 100%;
     height: 441px;
 }
 .met{
-    background-image: url(/image/hell.png);
+    background-image: url(image/hell.png);
 }
 
 

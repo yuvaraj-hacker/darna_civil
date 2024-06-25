@@ -45,6 +45,8 @@
 .content {
     color: #fff;
     text-align: center;
+    position: relative;
+    top:300px;
 }
 
 .content h1 {
@@ -223,6 +225,8 @@
     gap: 15px;
     justify-content: center;
     margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
 
 }
 .rectangle{
@@ -246,7 +250,23 @@
     width: 15px;
     height: 15px;
 }
+/* @media only screen and (max-width: 479px) and (min-width: 0px){
+    .banner{
+        background-image: none !important;
+        background-repeat: no-repeat;
+        background-size:cover !important;
+        background-position: center;
+        overflow: hidden;
+    } 
+     .function{
+        background-image: none !important;
+        background-repeat: no-repeat;
+        background-size:cover !important;
+        background-position: center;
+        overflow: hidden;
 
+     }
+} */
 
 
 
@@ -287,9 +307,17 @@
 
 .last{
     background-image: linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)), url(ending.jpg);
-    height: 50vh;
+    height: 80vh;
     width: 100%;
     background-size: cover;
     background-position: center;
     margin-top: 100px;
+    color: #fff;
+}
+.ending{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   margin-top: 50px;
+   line-height: 3;
 }

@@ -5,13 +5,14 @@
 
 .banner {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(start.webp);
     background-size: cover;
     background-position: center;
 }
 
 .navbar {
+    justify-content: space-evenly;
     width: 99%;
     height: 60px;
     display: flex;
@@ -46,37 +47,48 @@
     color: #fff;
     text-align: center;
     position: relative;
-    top:300px;
+    top: 40%;
+
 }
 
 .content h1 {
     font-size: 40px;
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    margin-bottom: 20px;
 
 }
 
 .content p {
-    margin: 40px auto;
-    font-weight: 100;
-    line-height: 1.7;
+    font-family: "Inter", sans-serif;
+    font-weight: lighter;
+    color: #fff;
+    margin-bottom: 10px;
 }
 
-#but {
-    background-color: rgb(228, 142, 45);
+.but {
+    background-color: #f6b300;
     border: none;
     height: 30px;
-
+    width: 120px;
 }
 
-#ton {
+.ton {
+    background-color: rgba(0, 0, 0, 0);
     border: none;
     height: 30px;
+    width: 120px;
+    color: #fff;
+    border: 1px solid#fff;
 }
 
 
 
 .second {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .raj {
@@ -150,16 +162,16 @@
 }
 
 .raj {
-    width: 219px;
-    height: 236px;
+    width: 300px;
+    height: 300px;
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .civil {
@@ -167,7 +179,8 @@
     width: 300px;
 
 }
-.rating{
+
+.rating {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -177,79 +190,246 @@
     margin-bottom: 100px;
     margin-left: 20%;
     margin-right: 20%;
-    
+
 }
-.one{
-   display: flex;
-   gap: 15px;
-   margin-bottom: 20px;
+
+.one {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
 }
-.head{
+
+.head {
     margin-top: 5px;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-weight: 800;
 }
-.paraa{
+
+.paraa {
     margin-top: 15px;
     margin-bottom: 5px;
     font-weight: normal;
 }
-.styll{
+
+.styll {
     /* width: fit-content;
     height: fit-content; */
     margin-top: 20px;
 
 }
-.function{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(third.jpg);
-    height: 80vh;
+
+.function {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(bull.jfif);
+    background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
     background-position: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
-.button{
+
+.button {
     text-align: center;
 }
-.girl{
+
+.girl {
     background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(pad2.jpg);
-    height: 80vh;
     width: 100%;
     background-size: cover;
     background-position: center;
     margin-top: 100px;
-    margin-bottom: 100px;
 }
-.prototype{
+
+.prototype {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px;
     margin-left: 300px;
-    margin-right: 300px;
+    margin-right: 300px; */
 
 }
-.rectangle{
+
+.rectangle {
     width: 200px;
-    height:300px;
+    height: 300px;
     background-color: rgb(219, 222, 224);
     text-align: center;
 }
-.darna{
+
+.darna {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    margin:10px 200px;
+    margin: 10px 200px;
 }
-.rate{
+
+.rate {
     width: 300px;
     height: 200px;
 }
-.icons{
+
+.icons {
     width: 15px;
     height: 15px;
 }
+
+.dot {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+}
+
+.rare {
+    font-family: "Inter", sans-serif;
+    font-size: smaller;
+    color: #fff;
+}
+
+.main-common {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.common {
+    display: flex;
+    gap: 10px;
+}
+
+.both {
+    font-size: 40px;
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+}
+
+.white {
+    font-size: 40px;
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.ender {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(Rectangle\ 14.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.love {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    justify-content: center;
+    gap: 50px;
+    /* justify-content: space-evenly; */
+    margin-top: 50px;
+}
+
+.mail {
+    display: flex;
+    gap: 15px;
+}
+
+.aaaec3 {
+    color: #aaaec3;
+    font-family: Inter, sans-serif;
+}
+
+.setting {
+    position: absolute;
+    top: 1%;
+}
+
+.bot {
+    position: relative;
+    bottom: 9px;
+}
+
+.inter {
+    font-family: Inter, sans-serif;
+}
+
+.fund {
+    font-size: 40px;
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.found {
+    font-family: "Khand", sans-serif;
+}
+
+@media (min-width:0px) and (max-width:1168px) {
+    .point {
+        display: none;
+    }
+
+    .chase {
+        display: none;
+    }
+}
+
+@media (min-width:0px) and (max-width:1000px) {
+    .navigation {
+        display: none;
+    }
+
+    .logo {
+        position: relative;
+        left: 25%
+    }
+}
+
+@media (min-width:0px) and (max-width:915px) {
+    .content {
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top: 30%;
+
+    }
+}
+
+@media (min-width:0px) and (max-width:915px) {
+    .setting {
+        display: none;
+
+
+    }
+
+}
+
+button {
+    background-color: #f6b300;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+    background-color: #f6b300;
+}
+
+
+
+
+
+
 /* @media only screen and (max-width: 479px) and (min-width: 0px){
     .banner{
         background-image: none !important;
@@ -267,57 +447,3 @@
 
      }
 } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.last{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)), url(ending.jpg);
-    height: 80vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    margin-top: 100px;
-    color: #fff;
-}
-.ending{
-    display: flex;
-    flex-wrap: wrap;
-   justify-content: space-around;
-   margin-top: 50px;
-   line-height: 3;
-}

@@ -10,7 +10,6 @@
     background-size: cover;
     background-position: center;
 }
-
 .navbar {
     justify-content: space-evenly;
     width: 99%;
@@ -167,16 +166,17 @@
 }
 
 .raj {
-    width: 250px;
-    height: 200px;
+    width: 300px;
+    height: 250px;
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
+    gap: 15px;
     justify-content: center;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .civil {
@@ -219,7 +219,7 @@
     margin-bottom: 5px;
     font-weight:lighter;
     line-height: 1.1;
-    color: #7E7E7E;
+   
 }
 
 .styll {
@@ -240,7 +240,17 @@
 .button {
     text-align: center;
     margin-bottom: 250px;
+    margin-top: 20px;
 }
+@media (min-width:0px) and (max-width:1665px) {
+    .button  {
+       margin-bottom:0px;
+        
+
+    }
+
+}
+
 
 .girl {
     background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(pad2.jpg);
@@ -261,7 +271,7 @@
 .prototype {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 20px;
     justify-content: center;
     /* margin-bottom: 100px;
     margin-left: 300px;
@@ -270,23 +280,28 @@
 }
 
 .rectangle {
-    width: 250px;
-    height: 325px;
+    width: 270px;
+    height: 330px;
     background-color: #F7F7F7;
     text-align: center;
 }
+.mark {
+  margin: 20px;
+}
+
 
 .darna {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-    margin: 10px 200px;
+    gap: 30px;
+   margin-left: 150px;
+   margin-right:150px;
 }
 
 .rate {
-    width: 333px;
-    height: 225px;
+    width: 360px;
+    height: 270px;
 }
 
 .icons {
@@ -412,9 +427,6 @@
     font-weight: bold;
 }
 
-.mark {
-    margin: 15px;
-}
 
 .string {
     margin-top: 30px;

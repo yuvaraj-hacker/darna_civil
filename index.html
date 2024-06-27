@@ -76,6 +76,7 @@
                 </div>
             </div>
             <div>
+               
                 <img style=" background-color: #AFA69C;" src="right.png" />
             </div>
 
@@ -309,7 +310,7 @@
                 </div>
                 <h1 class="white black">WHAT PEOPLE SAID</h1>
 
-                <P style="font-family:Inter,sans-serif;color: #c0c0c0;margin-bottom: 10px;margin-top: 10px;">THEY HAPPY
+                <P style="font-family:Inter,sans-serif;color: #dddddd;margin-bottom: 10px;margin-top: 10px;">THEY HAPPY
                     WITH US </P>
                 <img style="width: 38px;height: 3px;margin-bottom: 20px;" src="DASH.png" />
                 <P class="inter" style="line-height: 1.8;"> dui placerat donec net justo eget felis
@@ -324,7 +325,7 @@
             </div>
             <div class="red">
                 <p class="green inter">ORNARE</p>
-                <P class="green inter" style="color: #c0c0c0;">G5-ROME-ITALIA</P>
+                <P class="green inter" style="color: #dddddd;">G5-ROME-ITALIA</P>
             </div>
             <div style="display: flex;gap: 5px; margin-bottom: 25px;">
                 <div class="seven">
@@ -435,8 +436,8 @@
             <Pv class="inter">CONNECT WITH US ALL ABOUT DARNA</P>
                 <img style="width: 38px;height: 3px;margin-bottom: 50px;margin-top: 10px;" src="DASH.png" />
         </div>
-        <div class="darna" style="margin-bottom: px;">
-            <div style="line-height: 1.6;">
+        <div class="darna" >
+            <div style="line-height: 1.7;">
                 <img class="rate" src="table26.jpg" />
                 <p style="margin-top: 10px;" class="found">MADRIS PHOTOGRAPHER MARATHON</p>
                 <div style="display: flex;gap:20px;margin-top: 5px;margin-bottom: 5px;">
@@ -450,11 +451,11 @@
                     </div>
                 </div>
                 <img style="width: 38px;height: 3px;margin-top: 5px;margin-bottom: 5px;" src="DASH.png" />
-                <p class="inter" style="color: #7E7E7E;">In a professional context it often happens <br>
+                <p class="inter" >In a professional context it often happens <br>
                     or corporate clients order a publication to <br>
                     presented with the actual content[...]</p><br>
             </div>
-            <div style="line-height: 1.6;">
+            <div style="line-height: 1.7;">
                 <img class="rate" src="table27.jpg" />
                 <p style="margin-top: 10px;" class="found">ICELANDS VOLCANO TIMELAPSE</p>
                 <div style="display: flex;gap:20px;margin-top: 5px;margin-bottom: 5px;">
@@ -468,11 +469,11 @@
                     </div>
                 </div>
                 <img style="width: 38px;height: 3px;margin-top: 5px;margin-bottom: 5px;" src="DASH.png" />
-                <p class="inter" style="color: #7E7E7E;">In a professional context it often happens <br>
+                <p class="inter" >In a professional context it often happens <br>
                     or corporate clients order a publication to <br>
                     presented with the actual content[...]</p><br>
             </div>
-            <div style="line-height: 1.6;">
+            <div style="line-height: 1.7;">
                 <img class="rate" src="table 8.jpg" />
                 <p style="margin-top: 10px;" class="found">CONSTRUCTION YOU CAN COUNT ON </p>
                 <div style="display: flex;gap:20px;margin-top: 5px;margin-bottom: 5px;">
@@ -486,7 +487,7 @@
                     </div>
                 </div>
                 <img style="width: 38px;height: 3px;margin-top: 5px;margin-bottom: 5px;" src="DASH.png" />
-                <p class="inter" style="color: #7E7E7E;">In a professional context it often happens <br>
+                <p class="inter">In a professional context it often happens <br>
                     or corporate clients order a publication to <br>
                     presented with the actual content[...]</p><br>
             </div>
@@ -626,7 +627,15 @@
             </div>
         </div> -->
     </div>
-
+    <script src="script.js"> document.addEventListener('DOMContentLoaded', function() {
+        var button = document.getElementById('change-bg-btn');
+        var container = document.querySelector('.container');
+    
+        button.addEventListener('click', function() {
+            container.classList.toggle('changed');
+        });
+    });
+    </script>
 </body>
 <script>
     document.querySelector(".navbar").onclick = function () {

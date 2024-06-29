@@ -5,8 +5,11 @@
 
 .html {
     height: -webkit-fill-available;
+    
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .body {
     display: flex;
     flex-direction: column;
@@ -25,8 +28,30 @@
     background-position: center;
     overflow: hidden;
     animation: change 14s infinite ease-in-out;
+
+}
+.hamburger-menu {
+     display: none;
+    cursor: pointer;
+    font-size: 2.8rem;
+    color:black;
 }
 
+@media screen and (max-width: 768px) {
+    .hamburger-menu {
+        display: contents;
+        position: absolute;
+        left: 20px;
+        
+    }
+}
+@media screen and (max-width: 768px) {
+    .logo {
+        position: relative; 
+       
+        right: 50px;
+    }
+}
 @keyframes change {
     0% {
         background-image: url(keyframe1.jpg);
@@ -64,6 +89,8 @@
     background-color: white;
     position: absolute;
     top: 20px;
+    position: fixed;
+    z-index: 1;
 
 }
 
@@ -148,7 +175,6 @@ a:nth-child(5) {
     font-style: normal;
     color: #fff;
     margin-bottom: 20px;
-
 }
 
 .content p {
@@ -589,10 +615,7 @@ a:nth-child(5) {
         display: none;
     }
 
-    .logo {
-        position: relative;
-        left: 25%
-    }
+
 }
 
 @media (min-width:0px) and (max-width:915px) {

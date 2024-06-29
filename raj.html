@@ -1,163 +1,269 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> CONSTRUCTION</title>
-        <link href="yuvaraj.css" rel="stylesheet">
-    </head>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get in touch</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            justify-content: space-evenly;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+            background-color: white;
+            position: absolute;
+            top: 20px;
+            position: fixed;
+            z-index: 1;
+
+        }
+
+        .logo img {
+            width: 140px;
+            height: 60px;
+            cursor: pointer;
+
+            /* padding-left: 200px; */
+        }
+
+        .navbar ul {
+            /* padding-left: 200px; */
+        }
+
+        .navbar ul li {
+            list-style: none;
+            display: inline-block;
+            padding-top: 26px;
+            /* padding-left: 15px; */
+        }
+
+        .box {
+            font-size: 20px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: black;
+            margin-left: 35px;
+            font-family: "inter", sans-serif;
+            position: relative;
+            top: 17px;
+            border-radius: 5px;
+            transition: all 0.2s ease-in-out;
+            border: 1px #f6b300;
+        }
+
+        .connect-us {
+            background-color: #f6b300;
+        }
+
+        .size {
+            width: 600px;
+            height: 500px;
+        }
+
+        .box:hover {
+            border: 0;
+            box-shadow: 7px 7px #f6b300;
+        }
+
+        .third {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+            top: 250px;
+        }
+
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+
+            height: 100vh;
+        }
+
+        /* Container Styles */
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        /* Form Styles */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        textarea {
+            resize: vertical;
+            /* Allow vertical resizing */
+        }
+
+        input[type="submit"] {
+            background-color: rgb(236, 188, 128);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #f6b300;
+        }
+
+        input[type="submit"]:focus {
+            outline: none;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 600px) {
+            .container {
+                width: 90%;
+            }
+        }
+
+        #test {
+            width: 420px;
+            height: 420px;
+            background-size: cover;
+            background-position: center;
+            background-image: url(connted-world-concept-illustration.png);
+
+            animation: rotate-animation 6s infinite ease-in-out;
+        }
+
+        @keyframes rotate-animation {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            25% {
+                transform: rotate(30deg);
+            }
+
+            50% {
+                transform: rotate(0deg);
+            }
+
+            75% {
+                transform: rotate(-30deg);
+            }
+        }
+
+        @media (min-width:0px) and (max-width:1000px) {
+            nav {
+                display: none;
+            }
+
+
+        }
+        @media (min-width:0px) and (max-width:1000px) {
+            .rotating {
+                display: none;
+            }
+
+
+        }
+    </style>
+</head>
 <body>
-    <div class="banner">
+    <div class="navbar">
+        <div class="logo">
+            <img src="darna.png">
+        </div>
+        <nav>
+            <a href="index.html" class="box"   > HOME</a>
+            <a href="#projects" class="box"> PROJECTS</a>
+            <a href="#" class="box"> SHOP</a>
+            <a href="#" class="box"> BLOG</a>
+            <a href="#" class="box">SHORTCODES</a>
+            <a href="#" class="box">CONTACT US</a>
+        </nav>
+
+    </div>
+    <div style="display: flex;justify-content: space-around;position: relative;top: 250px;">
+        <div class="container">
+            <h2 style="color: #f6b300;"> Connect with Us</h2>
+            <form action="#">
+                <label for="name" style="color: #f6b300;">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                <label for="email" style="color: #f6b300;">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Your mail" required>
+
+                <label for="message" style="color: #f6b300;">Message</label>
+                <textarea id="message" name="message" placeholder=" Get in touch with us" style="height:200px"
+                    required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div style="position: relative;top: 30px;z-index: -1;" id='test' class='rotating'>
+
+        </div>
+
+    </div>
+
+
+    <!-- <div class="navbar">
+        <div class="logo">
+            <img src="darna.png">
+        </div>
+        <nav>
+            <a href="#" class="box"> HOME</a>
+            <a href="#projects" class="box"> PROJECTS</a>
+            <a href="#" class="box"> SHOP</a>
+            <a href="#" class="box"> BLOG</a>
+            <a href="#" class="box">SHORTCODES</a>
+            <a href="#" class="box">CONTACT US</a>
+        </nav>
+
+    </div>
+    <div class="third">
        
-         <div class="navbar">
-            <img src="darna.png" class="logo" >
-            <ul>
-                <li>HOME</li> 
-                <li>PAGES</li>
-                <li>PROJECTS</li>
-                <li>SHOP</li>
-                <li>BLOG</li>
-                <li>SHORTCODES</li>
-            </ul>
-        </div>
-        <div class="content">
-            <h1> ENGINEERING DREAMS WITH US</h1>
-            <P>Create a sustainable future through building preservation<br>
-               green architecture and smart design
-            </P>
-            <div>
-                <button id="but" style="color: white;"> OUR HISTORY </button>
-                <button id="ton"> VIEW PROJECTS</button>
-            </div>                                                   
-        </div>                      
-    </div>
-    <div class="second">
-        <img  style="width: 38px;height: 13px;margin-top: 100px;"src="top dash .png"/>
-        <h1>WHAT WE OFFER</h1>
-        <P>Always dedicated and devoted</P>
-        <img  style="width: 38px;height: 3px;"src="DASH.png"/>
-    </div>     
-    
-    <div  style="display: flex;"> 
-        <div style="width: 50px;height: 50px;border: 2px solid rgb(175, 175, 175);">
-
+        <div>
+           
         </div>
         <div>
-        <img class="civil" src="second.webp"/>
-        </div>  
-     </div>   
-    <div style="  background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(third.jpg);width: 100%;height: 100vh;background-size: cover;background-position: center;font-size: large;">
-        <div style="display: flex;justify-content: space-around;padding-left: 200px;">
-            <div style="color: white;text-align:left;line-height: 1.5;align-items: center;padding-top: 7%;">
-                <h1 style="padding-top: 5%;padding-bottom: 5%;">WHY CHOOSE US</h1>
-               <p>Civil engineering is a professional engineering discipline that deals with the design, construction, <br>
-                and maintenance of the physical and naturally built environment, including such as roads, bridges,<br>
-                canals, dams, airports,, pipelines, structural components of buildings, and railways.<br>
-                Civil engineering is traditionally broken into a number of sub-disciplines.<br> </p>
-                <p style="padding-top: 5%;">
-                It is considered the  second-oldest engineering discipline after, and it is defined to distinguish <br>
-                from military engineering. Civil engineering can take place in the public sector from <br>
-                municipal departments through to federal government agencies. <br>
-                </p>
-
-            </div>
-            <div >
-             <img style="width: auto; height:100vh;" src="hell.png"/>
-            </div> 
+            <img class="size" src="connted-world-concept-illustration.png" />
         </div>
-    </div>
-        
-    </div>
-    <div style="padding-top: 30px;padding-bottom: 30px;text-align: center;">
-        <h1>
-            LATEST PROJECTS
-        </h1>
-        <P>
-            EXPERIENCE & CREATIVITY HOUSE
-        </P>
-     
-    </div>
-    <div class="div">
-        <div class="tat">
-            <div>
-                <img  class="raj" src="table 1.jpg"/>
-            </div>
-            <div>
-                <img class="raj" src="table2.webp"/>
-            </div>
-            <div>
-                <img  class="raj"src="table3.jpg"/>
-            </div>
-        </div>
-        <div class="tat">
-            <div>
-                <img  class="raj" src="table4.jpg"/>
-            </div>
-            <div>
-                <img class="raj" src="table5.jpg"/>
-            </div>
-            <div>
-                <img  class="raj" src="table6.jpg"/>
-            </div>
-        </div>
-    </div>
-    <div>
-        <button class="yuv" > VIEW ALL </button>
-    </div>
-    <div style="  background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(pad2.jpg);width: 100%;height: 100vh;background-size: cover;background-position: center;display: flex;">
-       <div>
-        <img style="width: auto; height:100vh;margin-left: 3rem;" src="pad.png"/>
-       </div>
-    </div>
-    <div style="text-align: center;padding-top: 40px;padding-bottom: 40px;">
-        <h1> OUR PROCESS</h1>
-        <P>STYLE 2</P>
-    </div>
-    <div style="padding-left: 700px;">
-       
-        <div style="display: flex;text-align: center;padding-bottom: 80px;">
-            <div class="content1">
-
-            </div>
-            <div class="content1">
-
-            </div>
-            <div class="content1">
-
-            </div>
-            <div class="content1">
-            </div>
-
-        </div>
-    </div>
-    <div style="text-align: center;padding-top: 40px;padding-bottom: 40px;">
-        <h1> LATEST NEWS</h1>
-        <P>
-            CONNECT WITH US ALL ABOUT DARNA
-        </P>
-    </div>
-    <div style="display: flex;padding-left: 550px;">
-        <div>
-            <img  class="raja" src="table 7.jpg"/>
-        </div>
-        <div>
-            <img  class="raja" src="table 8.jpg"/>
-        </div>
-        <div>
-            <img  class="raja" src="table 9.jpg"/>
-        </div>
-    </div>
-    <div class="ending">
-        
-        
-
-    </div>
+    </div> -->
 </body>
+
 </html>
-                                                                                                
-            
-     
-         
-        
-        
-        
-       
-    

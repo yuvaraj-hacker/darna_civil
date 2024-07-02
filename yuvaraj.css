@@ -83,9 +83,7 @@ html{
     width: 100%;
     height: 60px;
     display: flex;
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
+
     background-color: white;
     position: absolute;
     top: 20px;
@@ -112,49 +110,23 @@ html{
     box-shadow: 7px    7px  #f6b300;
 }
 
-/* a:nth-child(1) {
-   
-}`
-nav .start-home,a:nth-child(1):hover~.animation{
- 
-    left: 900px;
-}
-a:nth-child(2) {
-    width: 110px;
-}
-nav .start-home,a:nth-child(2):hover~.animation{
-    width: 110px;
 
-}
-a:nth-child(3) {
-    width: 160px;
-}
-
-a:nth-child(4) {
-    width: 150px;
-}
-
-a:nth-child(5) {
-    width: 150px;
-} */
 
 .logo img {
     width: 140px;
     height: 60px;
     cursor: pointer;
 
-    /* padding-left: 200px; */
+   
 }
 
-.navbar ul {
-    /* padding-left: 200px; */
-}
+
 
 .navbar ul li {
     list-style: none;
     display: inline-block;
     padding-top: 26px;
-    /* padding-left: 15px; */
+
 }
 
 .content {
@@ -333,8 +305,7 @@ a:nth-child(5) {
 }
 
 .styll {
-    /* width: fit-content;
-    height: fit-content; */
+ 
     margin-top: 20px;
 
 }
@@ -367,7 +338,7 @@ a:nth-child(5) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(pad2.jpg);
     background-repeat: no-repeat;
     width: 100%;
-    /* height: 50vh; */
+   
     background-size: cover;
     background-position: center;
     position: relative;
@@ -384,9 +355,6 @@ a:nth-child(5) {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    /* margin-bottom: 100px;
-    margin-left: 300px;
-    margin-right: 300px; */
 
 }
 
@@ -492,7 +460,7 @@ a:nth-child(5) {
     color: #fff;
     justify-content: center;
     gap: 50px;
-    /* justify-content: space-evenly; */
+
     margin-top: 50px;
 }
 
@@ -555,7 +523,7 @@ a:nth-child(5) {
 
 .circle {
     width: 50px;
-    /* Adjust width and height as needed */
+  
     height: 50px;
     background-color: #f6b300;
     border-radius: 50%;
@@ -708,20 +676,3 @@ button:hover {
 
 
 
-/* @media only screen and (max-width: 479px) and (min-width: 0px){
-    .banner{
-        background-image: none !important;
-        background-repeat: no-repeat;
-        background-size:cover !important;
-        background-position: center;
-        overflow: hidden;
-    } 
-     .function{
-        background-image: none !important;
-        background-repeat: no-repeat;
-        background-size:cover !important;
-        background-position: center;
-        overflow: hidden;
-
-     }
-} */

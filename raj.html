@@ -16,7 +16,7 @@
             width: 100%;
             height: 60px;
             display: flex;
-     
+
             background-color: white;
             position: absolute;
             top: 20px;
@@ -30,16 +30,16 @@
             height: 60px;
             cursor: pointer;
 
-       
+
         }
 
-      
+
 
         .navbar ul li {
             list-style: none;
             display: inline-block;
             padding-top: 26px;
-     
+
         }
 
         .box {
@@ -78,14 +78,14 @@
             top: 250px;
         }
 
-  
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-   
+
         body {
             font-family: Arial, sans-serif;
             background-color: #f2f2f2;
@@ -93,7 +93,7 @@
             height: 100vh;
         }
 
-    
+
         .container {
             background-color: #ffffff;
             padding: 20px;
@@ -102,7 +102,7 @@
             width: 400px;
         }
 
-    
+
         form {
             display: flex;
             flex-direction: column;
@@ -142,7 +142,7 @@
             outline: none;
         }
 
-   
+
         @media screen and (max-width: 600px) {
             .container {
                 width: 90%;
@@ -184,6 +184,7 @@
 
 
         }
+
         @media (min-width:0px) and (max-width:1000px) {
             .rotating {
                 display: none;
@@ -193,13 +194,14 @@
         }
     </style>
 </head>
+
 <body>
     <div class="navbar">
         <div class="logo">
             <img src="darna.png">
         </div>
         <nav>
-            <a href="index.html" class="box"   > HOME</a>
+            <a href="index.html" class="box"> HOME</a>
             <a href="index.html" class="box"> PROJECTS</a>
             <a href="#" class="box"> SHOP</a>
             <a href="#" class="box"> BLOG</a>
@@ -211,7 +213,8 @@
     <div style="display: flex;justify-content: space-around;position: relative;top: 250px;">
         <div class="container">
             <h2 style="color: #f6b300;"> Connect with Us</h2>
-            <form action="#">
+            <form  action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="ceac0e9f-44a1-4381-981f-6c42eb63566a">
                 <label for="name" style="color: #f6b300;">Your Name</label>
                 <input type="text" id="name" name="name" placeholder="Your name" required>
 
@@ -233,7 +236,7 @@
     </div>
 
 
-  
+   
 </body>
 
 </html>
